@@ -1602,7 +1602,7 @@
   {"pos":[-702,916.56],"name":"Bellway - Far Fields","iconUrl":"bellway.png","uid":49,"flag":"@,playerData.UnlockedBoneforestEastStation,true"},
   {"pos":[-568.82,741.57],"name":"Bellway - Greymoor","iconUrl":"bellway.png","uid":50,"flag":"@,playerData.UnlockedGreymoorStation,True"},
   {"pos":[-599.42,548.58],"name":"Bellway - Bellhart","iconUrl":"bellway.png","uid":51,"flag":"@,playerData.UnlockedBelltownStation,True"},
-  {"pos":[-537.83,334],"name":"Bellway - Shellwood","iconUrl":"bellway.png","uid":52,"flag":""},
+  {"pos":[-537.83,334],"name":"Bellway - Shellwood","iconUrl":"bellway.png","uid":52,"flag":"@,playerData.UnlockedShellwoodStation,True"},
   {"pos":[-442.45,215.61],"name":"Bellway - Blasted Steps","iconUrl":"bellway.png","uid":53,"flag":""},
   {"pos":[-425.85,901.36],"name":"Bellway - Bilewater","iconUrl":"bellway.png","uid":54,"flag":""},
   {"pos":[-306.32,318.81],"name":"Bellway - The Slab","iconUrl":"bellway.png","flag":"","uid":669},
@@ -1649,11 +1649,12 @@
   {"pos":[-214.84,984.41],"name":"Map - ???","iconUrl":"map.png","flag":"","uid":692}
   ]},
   {"id":"shortcut","name":"Shortcuts", "group":"mapping", "iconUrl":"map.png", "list":[
-      {"pos":[-541.03,772.50],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-{"pos":[-554.05,754.03],"name":"Requires Faydown Cloak","iconUrl":"faydowncloak_req.png","flag":""},
-    {"pos":[-557.35,490.88],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-{"pos":[-543.67,448.34],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-
+  {"pos":[-541.03,772.5],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"","uid":775},
+  {"pos":[-554.05,754.03],"name":"Requires Faydown Cloak","iconUrl":"faydowncloak_req.png","flag":"","uid":776},
+  {"pos":[-505.57,367.91],"name":"Requires Faydown Cloak","iconUrl":"faydowncloak_req.png","flag":"","uid":777},
+  {"pos":[-557.35,490.88],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"","uid":778},
+  {"pos":[-543.67,448.34],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"","uid":779},
+  {"pos":[-528.64,403.03],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"","uid":780},
   {"pos":[-690.6,184.21],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":578,"flag":""},
   {"pos":[-697.1,504.79],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":579,"flag":""},
   {"pos":[-627.91,421.99],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":580,"flag":""},
@@ -1666,14 +1667,13 @@
   {"pos":[-636.61,317.9],"name":"Requires Silkspear Attack","iconUrl":"silkspear_req.png","flag":"@tool,Hunter","uid":585},
   {"pos":[-733.09,1059.45],"name":"Requires Clawline","iconUrl":"","flag":"","uid":586},
   {"pos":[-732.6,844.88],"name":"Requires Clawline","iconUrl":"","flag":"","uid":719},
-    {"pos":[-564.83,654.78],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Greymoor_07,greymoor_lever_simple,true"},
-{"pos":[-579.86,721.53],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Greymoor_16,plank_wall_cluster,true"},
-    {"pos":[-569.02,730.88],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Bellway_04,plank_wall_cluster,true"},
-    {"pos":[-697.03,174.94],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.bonegraveOpen,True"},
-{"pos":[-579.17,276.38],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.shellwoodBellshrineTwigWall,True"},
-{"pos":[-582.27,441.84],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Shellwood_02,Hornet_pressure_plate,true"},
-{"pos":[-537.41,316.19],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":""},
-
+  {"pos":[-564.83,654.78],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Greymoor_07,greymoor_lever_simple,true","uid":781},
+  {"pos":[-579.86,721.53],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Greymoor_16,plank_wall_cluster,true","uid":782},
+  {"pos":[-569.02,730.88],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Bellway_04,plank_wall_cluster,true","uid":783},
+  {"pos":[-697.03,174.94],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.bonegraveOpen,True","uid":784},
+  {"pos":[-579.17,276.38],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.shellwoodBellshrineTwigWall,True","uid":785},
+  {"pos":[-582.27,441.84],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Shellwood_02,Hornet_pressure_plate,true","uid":786},
+  {"pos":[-537.41,316.19],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"","uid":787},
   {"pos":[-678.8,735.27],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.Bone_East_04b_ExplodeWall,true","uid":587},
   {"pos":[-614.69,875.25],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"","uid":720},
   {"pos":[-614.69,888.13],"name":"Requires coming from the west side, which requires Silk Soar","iconUrl":"silksoar_req.png","flag":"","uid":721},
@@ -1690,14 +1690,14 @@
   {"pos":[-702,471.59],"name":"One-Way Shortcut - Left","iconUrl":"shortcut_left.png","flag":"@bool,Bone_16,Bone Carriage,true","uid":593},
   {"pos":[-652.81,421.99],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@,playerData.bone03_openedTrapdoor,true","uid":594},
   {"pos":[-544.72,928.06],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Greymoor_02,Greymoor Stand Lever - Crane,true","uid":761},
-  {"pos":[-525.06,664.63],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":""},
-    {"pos":[-577.55,650.31],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":""},
-    {"pos":[-688.53,70.31],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":"@bool,Chapel_Wanderer,One Way Wall,true"},
-{"pos":[-583.85,371.56],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":""},
-    {"pos":[-622.14,558.34],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":""},
-{"pos":[-581.02,576.50],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":""},
-    {"pos":[-551.19,430.00],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Shellwood_02,Hornet_cage_rect_lift,true"},
-
+  {"pos":[-525.06,664.63],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"","uid":788},
+  {"pos":[-526.91,460.44],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Shellwood_01b,Hornet_cage_rect_lift,true","uid":789},
+  {"pos":[-577.55,650.31],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"","uid":790},
+  {"pos":[-688.53,70.31],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":"@bool,Chapel_Wanderer,One Way Wall,true","uid":791},
+  {"pos":[-583.85,371.56],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":"","uid":792},
+  {"pos":[-622.14,558.34],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":"","uid":793},
+  {"pos":[-581.02,576.5],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"","uid":794},
+  {"pos":[-551.19,430],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Shellwood_02,Hornet_cage_rect_lift,true","uid":795},
   {"pos":[-550.69,881.38],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":"@,playerData.crashingIntoGreymoor,true","uid":723},
   {"pos":[-719.85,1033.56],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Bone_East_14,DropBomb Rock (2),true","uid":724},
   {"pos":[-656.31,524.09],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Bone_04,Song_lever_side right,true","uid":595},
@@ -1705,8 +1705,7 @@
   {"pos":[-666.21,296.4],"name":"One-Way Shortcut - Up","iconUrl":"shortcut_up.png","flag":"@,playerData.BonePlazaOpened","uid":597},
   {"pos":[-685.66,882.88],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@,playerData.openedTallGeyser,true","uid":725},
   {"pos":[-656.11,323.4],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Bone_04,Bone Lever,true","uid":598},
-  {"pos":[-611.28,157.50],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.crawl03_oneWayWall,True"},
-
+  {"pos":[-611.28,157.5],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@,playerData.crawl03_oneWayWall,True","uid":796},
   {"pos":[-605.82,816.13],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Ant_19,ant_lever_persistent,true","uid":726},
   {"pos":[-676.6,159.21],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"@bool,Bonegrave,One Way Wall,true","notes":"","uid":599},
   {"pos":[-722.7,829.09],"name":"One-Way Shortcut - Right","iconUrl":"shortcut_right.png","flag":"","uid":727},
@@ -1714,6 +1713,7 @@
   {"pos":[-677.9,259.3],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Bonetown,Bone Lever,true","uid":600},
   {"pos":[-672.01,359.9],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@,playerData.bone01shortcutPlat","uid":601},
   {"pos":[-696.8,350.1],"name":"One-Way Shortcut - Left","iconUrl":"shortcut_left.png","flag":"@bool,Bone_01,Battle Scene,true","uid":602},
+  {"pos":[-538.08,454.78],"name":"One-Way Shortcut - Left","iconUrl":"shortcut_left.png","flag":"","uid":797},
   {"pos":[-698.8,359.1],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Bone_01,Battle Scene,true","uid":603},
   {"pos":[-697.8,429.69],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Bone_02,Chain Drop Platform,true","uid":604},
   {"pos":[-652.91,267.9],"name":"One-Way Shortcut - Down","iconUrl":"shortcut_down.png","flag":"@bool,Mosstown_01,Trapdoor Lever,true","uid":605},
@@ -1725,11 +1725,9 @@
   {"pos":[-738.89,1110.25],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":610},
   {"pos":[-738.78,1109.63],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":730},
   {"pos":[-551.02,1023.72],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":762},
-  {"pos":[-702.44,109.50],"name":"Requirement Unknown","iconUrl":"","flag":""},
-
-  {"pos":[-706.49,189.97],"name":"Requirement Unknown","iconUrl":"","flag":""},
-    {"pos":[-741.55,180.06],"name":"Requirement Unknown","iconUrl":"","flag":""},
-
+  {"pos":[-702.44,109.5],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":798},
+  {"pos":[-706.49,189.97],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":799},
+  {"pos":[-741.55,180.06],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":800},
   {"pos":[-548.16,995.75],"name":"Requires completing Court of the Craws battle","iconUrl":"","flag":"","uid":763},
   {"pos":[-625.67,798],"name":"Requires Silk Soar","iconUrl":"silksoar_req.png","flag":"","uid":731},
   {"pos":[-629.21,377.3],"name":"Requirement Unknown","iconUrl":"","flag":"","uid":611},
@@ -1752,27 +1750,29 @@
   {"pos":[-553.28,944.69],"name":"Requires Drifter's Cloak","iconUrl":"drifterscloak_req.png","flag":"@,playerData.hasBrolly,true","uid":766},
   {"pos":[-708.1,677.08],"name":"Requires Swift Step","iconUrl":"swiftstep_req.png","flag":"@bool,Bone_East_12,Song_Gate_small,true","uid":621},
   {"pos":[-711.9,687.67],"name":"Requires Swift Step","iconUrl":"swiftstep_req.png","flag":"@bool,Bone_East_12,Song_Gate_small,true","uid":622},
-  {"pos":[-665.01,748.77],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":623,"flag":""},
-  {"pos":[-693.9,546.88],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":624,"flag":""},
-  {"pos":[-605.32,160.61],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":625,"flag":""},
-  {"pos":[-571.92,282.7],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":626,"flag":""},
-  {"pos":[-620.51,133.91],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":627,"flag":""},
-  {"pos":[-538.77,933.56],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"","uid":767},
-  {"pos":[-535.33,668.25],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-    {"pos":[-643.61,163.72],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-{"pos":[-577.70,415.53],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-    {"pos":[-617.80,558.22],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-    {"pos":[-583.02,518.00],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-    {"pos":[-550.10,461.88],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":""},
-
-  {"pos":[-613.12,145.01],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":628,"flag":""}
+  {"pos":[-665.01,748.77],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":623,"flag":"@,playerData.hasWalljump,True"},
+  {"pos":[-693.9,546.88],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":624,"flag":"@,playerData.hasWalljump,True"},
+  {"pos":[-605.32,160.61],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":625,"flag":"@,playerData.hasWalljump,True"},
+  {"pos":[-571.92,282.7],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":626,"flag":"@,playerData.hasWalljump,True"},
+  {"pos":[-620.51,133.91],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":627,"flag":"@,playerData.hasWalljump,True"},
+  {"pos":[-538.77,933.56],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":767},
+  {"pos":[-535.33,668.25],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":801},
+  {"pos":[-643.61,163.72],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":802},
+  {"pos":[-577.7,415.53],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":803},
+  {"pos":[-617.8,558.22],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":804},
+  {"pos":[-583.02,518],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":805},
+  {"pos":[-550.1,461.88],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":806},
+  {"pos":[-509.66,493.25],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":807},
+  {"pos":[-515.85,499],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":808},
+  {"pos":[-513.6,453.5],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","flag":"@,playerData.hasWalljump,True","uid":809},
+  {"pos":[-613.12,145.01],"name":"Requires Cling Grip","iconUrl":"clinggrip_req.png","uid":628,"flag":"@,playerData.hasWalljump,True"}
   ]},
   {"id":"skip","name":"Glitches & Skips", "group":"mapping", "iconUrl":"map.png", "list":[
   ]},
   {"id":"ability","name":"Abilities", "group":"abilityitems", "iconUrl":"needolin.png", "list":[
   {"pos":[-559.03,549.38],"name":"Ability - Needolin","iconUrl":"needolin.png","uid":80,"flag":""},
   {"pos":[-763.19,378.6],"name":"Ability - Sylphsong","iconUrl":"sylphsong.png","uid":81,"flag":""},
-  {"pos":[-510.43,392.99],"name":"Ability - Cling Grip","iconUrl":"clinggrip.png","uid":82,"flag":""},
+  {"pos":[-510.43,392.99],"name":"Ability - Cling Grip","iconUrl":"clinggrip.png","uid":82,"flag":"@,playerData.hasWalljump,True"},
   {"pos":[-676,683.18],"name":"Ability - Swift Step","iconUrl":"swiftstep.png","uid":83,"flag":"@,playerData.hasDash,true"},
   {"pos":[-721.8,128.41],"name":"Ability - Elegy of the Deep","iconUrl":"needolin.png","uid":84,"flag":""},
   {"pos":[-459.24,132.01],"name":"Ability - Needle Strike","iconUrl":"needlestrike.png","uid":114,"flag":""},
@@ -1943,9 +1943,8 @@
   {"id":"rosary","name":"Rosary Deposit", "group":"currency", "iconUrl":"rosary.png","list":[
   {"pos":[-702.8,120.81],"name":"Rosaries","iconUrl":"rosary.png","uid":206,"flag":"@bool,Bonegrave,grave_marker_break_grey (2),true"},
   {"pos":[-673.2,240.2],"name":"Rosaries","iconUrl":"rosary.png","uid":207,"flag":"@int,Bonetown,rosary_shrine_small,2"},
-  {"pos":[-546.99,976.53],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Greymoor_15b,Craw_home_right,true"},
-    {"pos":[-686.67,65.78],"name":"Rosaries","iconUrl":"rosary.png","flag":"@int,Chapel_Wanderer,rosary_string_small_half (1),1"},
-
+  {"pos":[-546.99,976.53],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Greymoor_15b,Craw_home_right,true","uid":810},
+  {"pos":[-686.67,65.78],"name":"Rosaries","iconUrl":"rosary.png","flag":"@int,Chapel_Wanderer,rosary_string_small_half (1),1","uid":811},
   {"pos":[-661.41,235.61],"name":"Rosaries","iconUrl":"rosary.png","uid":208,"flag":"@geo,Aspid_01,Geo Rock 2,0"},
   {"pos":[-661.81,267.7],"name":"Rosaries","iconUrl":"rosary.png","uid":209,"flag":"@int,Bone_11,rosary_string_small_mixed,2"},
   {"pos":[-667.81,269.1],"name":"Rosaries","iconUrl":"rosary.png","uid":210,"flag":"@int,Bonetown,rosary_string_small_half,2"},
@@ -2039,10 +2038,9 @@
   {"pos":[-488.74,296.2],"name":"Rosaries","iconUrl":"rosary.png","uid":291,"flag":""},
   {"pos":[-668.81,457.69],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Bone_10,Geo Small Persistent (1),true","uid":629},
   {"pos":[-664.51,319.4],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Bone_04,Geo Small Persistent (2),true","uid":630},
-  {"pos":[-675.48,161.41],"name":"Rosaries","iconUrl":"rosary.png","flag":"@int,Bonegrave,rosary_string_small,2"},
-    {"pos":[-685.16,93.38],"name":"Rosaries","iconUrl":"rosary.png","flag":"@int,Chapel_Wanderer,rosary_string_medium,2"},
-    {"pos":[-679.07,77.67],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Chapel_Wanderer,Geo Small Persistent,true"},
-
+  {"pos":[-675.48,161.41],"name":"Rosaries","iconUrl":"rosary.png","flag":"@int,Bonegrave,rosary_string_small,2","uid":812},
+  {"pos":[-685.16,93.38],"name":"Rosaries","iconUrl":"rosary.png","flag":"@int,Chapel_Wanderer,rosary_string_medium,2","uid":813},
+  {"pos":[-679.07,77.67],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Chapel_Wanderer,Geo Small Persistent,true","uid":814},
   {"pos":[-645.11,308.4],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Mosstown_01,Geo Small Persistent (2),true","uid":631}
   ]},
   {"id":"sharditem","name":"Shard Bundles", "group":"currency", "iconUrl":"shardbundle.png", "list":[
@@ -2096,7 +2094,8 @@
   {"pos":[-570.52,469.99],"name":"Shell Shards","iconUrl":"shards.png","uid":337,"flag":"@bool,Shellwood_01,Shell Shard Fossil Shellwood,true"},
   {"pos":[-568.62,451.69],"name":"Shell Shards","iconUrl":"shards.png","uid":338,"flag":"@bool,Shellwood_01,Shell Shard Fossil Shellwood (1),true"},
   {"pos":[-481.34,435.89],"name":"Shell Shards","iconUrl":"shards.png","uid":339,"flag":""},
-  {"pos":[-517.63,160.01],"name":"Shell Shards","iconUrl":"shards.png","uid":340,"flag":""}
+  {"pos":[-517.63,160.01],"name":"Shell Shards","iconUrl":"shards.png","uid":340,"flag":""},
+  {"pos":[-498.52,368.25],"name":"Shell Shards","iconUrl":"shards.png","flag":"","uid":815}
   ]},
   {"id":"flea","name":"Lost Fleas", "group":"collectibles", "iconUrl":"lostFlea.png", "list":[
   {"pos":[-635.01,194.01],"name":"Lost Flea #1","iconUrl":"lostFlea.png","uid":341,"flag":"@,playerData.SavedFlea_Crawl_06,True"},
@@ -2313,7 +2312,7 @@
   {"pos":[-651.41,551.98],"name":"Quest Item - Silver Bell #11","iconUrl":"items.png","uid":528,"flag":""},
   {"pos":[-555.43,486.19],"name":"Quest Item - Polip Heart #1","iconUrl":"items.png","uid":529,"flag":""},
   {"pos":[-545.03,470.99],"name":"Quest Item - Polip Heart #2","iconUrl":"items.png","uid":530,"flag":""},
-  {"pos":[-522.03,425.59],"name":"Quest Item - Polip Heart #3","iconUrl":"items.png","uid":531,"flag":""},
+  {"pos":[-522.03,425.59],"name":"Quest Item - Polip Heart #3","iconUrl":"items.png","uid":531,"flag":"@bool,Shellwood_20,Nectar Pickup,true"},
   {"pos":[-494.44,427.59],"name":"Quest Item - Polip Heart #4","iconUrl":"items.png","uid":532,"flag":""},
   {"pos":[-531.83,380.8],"name":"Quest Item - Polip Heart #5","iconUrl":"items.png","uid":533,"flag":""},
   {"pos":[-556.03,441.99],"name":"Quest Item - Polip Heart #6","iconUrl":"items.png","uid":534,"flag":""},
@@ -2339,7 +2338,7 @@
   {"pos":[-477.84,911.56],"name":"Boss - Disgraced Chef Lugoli","iconUrl":"boss.png","uid":552,"flag":""},
   {"pos":[-583.42,621.78],"name":"Boss - Moorwing","iconUrl":"boss.png","uid":553,"flag":""},
   {"pos":[-558.83,549.38],"name":"Boss - Widow","iconUrl":"boss.png","uid":554,"flag":""},
-  {"pos":[-515.23,428.19],"name":"Boss - Sister Splinter","iconUrl":"boss.png","uid":555,"flag":""},
+  {"pos":[-515.23,428.19],"name":"Boss - Sister Splinter","iconUrl":"boss.png","uid":555,"flag":"@,playerData.defeatedSplinterQueen,True"},
   {"pos":[-475.04,539.18],"name":"Boss - Father of the Flame","iconUrl":"boss.png","uid":556,"flag":""},
   {"pos":[-360.86,803.37],"name":"Boss - Phantom","iconUrl":"boss.png","uid":557,"flag":""},
   {"pos":[-272.08,984.75],"name":"Boss - Groal the Great","iconUrl":"boss.png","uid":558,"flag":""},
@@ -2347,8 +2346,7 @@
   {"pos":[-410.65,340.2],"name":"Boss - Last Judge","iconUrl":"boss.png","uid":560,"flag":""},
   {"pos":[-448.65,145.41],"name":"Boss - Lost Garmond","iconUrl":"boss.png","uid":561,"flag":""},
   {"pos":[-664.35,553.69],"name":"Mini-Boss - Skarrgard","iconUrl":"boss.png","flag":"@bool,Ant_02,Battle Scene,true","uid":738},
-  {"pos":[-567.77,326.44],"name":"Mini-Boss - Rosary Pilgrim","iconUrl":"boss.png","flag":"@,playerData.defeatedShellwoodRosaryPilgrim,True"}
-
+  {"pos":[-567.77,326.44],"name":"Mini-Boss - Rosary Pilgrim","iconUrl":"boss.png","flag":"@,playerData.defeatedShellwoodRosaryPilgrim,True","uid":816}
   ]},
   {"id":"arena","name":"Arenas", "group":"battles", "iconUrl":"arena.png", "list":[
   {"pos":[-694,78.42],"name":"Battle - Wanderer's Chapel","iconUrl":"arena.png","uid":562,"flag":"@bool,Chapel_Wanderer,Battle Scene,true"},
@@ -2369,10 +2367,9 @@
   {"pos":[-746.99,708.67],"name":"Lever","iconUrl":"lever.png","flag":"@bool,Bone_East_13,Song_lever_side,true","uid":632},
   {"pos":[-693.4,642.58],"name":"Lever","iconUrl":"lever.png","flag":"@bool,Bone_East_01,Song_lever_side (1),true","uid":633},
   {"pos":[-672.71,646.38],"name":"Lever","iconUrl":"lever.png","flag":"@bool,Bone_East_05,Song_lever_side (1),true","uid":634},
-    {"pos":[-542.99,593.47],"name":"Break - Rope","iconUrl":"break.png","flag":"@bool,Greymoor_20c,greystore_floor_shortcut,true"},
-    {"pos":[-579.83,699.84],"name":"Break - Rope","iconUrl":"break.png","flag":"@bool,Greymoor_16,greystore_floor_shortcut (1),true"},
-{"pos":[-575.14,287.84],"name":"Break","iconUrl":"break.png","flag":""},
-
+  {"pos":[-542.99,593.47],"name":"Break - Rope","iconUrl":"break.png","flag":"@bool,Greymoor_20c,greystore_floor_shortcut,true","uid":817},
+  {"pos":[-579.83,699.84],"name":"Break - Rope","iconUrl":"break.png","flag":"@bool,Greymoor_16,greystore_floor_shortcut (1),true","uid":818},
+  {"pos":[-575.14,287.84],"name":"Break","iconUrl":"break.png","flag":"","uid":819},
   {"pos":[-696,828.77],"name":"Break - Wall","iconUrl":"break.png","flag":"@,playerData.antMerchantShortcut,true","uid":635},
   {"pos":[-671.21,314.2],"name":"Break - Wall","iconUrl":"break.png","flag":"@bool,Bone_01b,Breakable Wall,true","uid":636},
   {"pos":[-636.91,268.7],"name":"Break - Wall","iconUrl":"break.png","flag":"@bool,Mosstown_02,Breakable Wall,true","uid":637},
@@ -2402,4 +2399,4 @@
   {"pos":[-737.36,1088.75],"name":"Break Lava Bomb","iconUrl":"break.png","flag":"@bool,Bone_East_14b,DropBomb Rock,true","uid":756}
   ]}
 ],"notes":[
-  ]}
+  ]}
